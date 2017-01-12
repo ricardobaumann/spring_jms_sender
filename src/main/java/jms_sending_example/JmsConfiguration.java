@@ -16,7 +16,7 @@ import javax.jms.ConnectionFactory;
 @Configuration
 public class JmsConfiguration {
 
-    private static final String JMS_BROKER_URL = "tcp://localhost:61616";
+    private static final String JMS_BROKER_URL = "tcp://192.168.99.100:61616";
 
     @Bean
     public ConnectionFactory connectionFactory() {
